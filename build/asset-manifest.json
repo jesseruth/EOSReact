@@ -1,14 +1,14 @@
 {
-  "main.css": "/EOSReact/build/index.html/static/css/main.cde2cb44.chunk.css",
-  "main.js": "/EOSReact/build/index.html/static/js/main.c7913987.chunk.js",
-  "main.js.map": "/EOSReact/build/index.html/static/js/main.c7913987.chunk.js.map",
-  "static/js/1.4d42615d.chunk.js": "/EOSReact/build/index.html/static/js/1.4d42615d.chunk.js",
-  "static/js/1.4d42615d.chunk.js.map": "/EOSReact/build/index.html/static/js/1.4d42615d.chunk.js.map",
-  "runtime~main.js": "/EOSReact/build/index.html/static/js/runtime~main.2a0fb1bc.js",
-  "runtime~main.js.map": "/EOSReact/build/index.html/static/js/runtime~main.2a0fb1bc.js.map",
-  "static/media/logo.svg": "/EOSReact/build/index.html/static/media/logo.5d5d9eef.svg",
-  "static/css/main.cde2cb44.chunk.css.map": "/EOSReact/build/index.html/static/css/main.cde2cb44.chunk.css.map",
-  "index.html": "/EOSReact/build/index.html/index.html",
-  "precache-manifest.5382ea01346aa4e226c0a738488c7c49.js": "/EOSReact/build/index.html/precache-manifest.5382ea01346aa4e226c0a738488c7c49.js",
-  "service-worker.js": "/EOSReact/build/index.html/service-worker.js"
+  "main.css": "/EOSReact/build/static/css/main.cde2cb44.chunk.css",
+  "main.js": "/EOSReact/build/static/js/main.4ec3e485.chunk.js",
+  "main.js.map": "/EOSReact/build/static/js/main.4ec3e485.chunk.js.map",
+  "static/js/1.4d42615d.chunk.js": "/EOSReact/build/static/js/1.4d42615d.chunk.js",
+  "static/js/1.4d42615d.chunk.js.map": "/EOSReact/build/static/js/1.4d42615d.chunk.js.map",
+  "runtime~main.js": "/EOSReact/build/static/js/runtime~main.09165cc8.js",
+  "runtime~main.js.map": "/EOSReact/build/static/js/runtime~main.09165cc8.js.map",
+  "static/media/logo.svg": "/EOSReact/build/static/media/logo.5d5d9eef.svg",
+  "static/css/main.cde2cb44.chunk.css.map": "/EOSReact/build/static/css/main.cde2cb44.chunk.css.map",
+  "index.html": "/EOSReact/build/index.html",
+  "precache-manifest.e317041854bf0b5bbb3275b81014fb8e.js": "/EOSReact/build/precache-manifest.e317041854bf0b5bbb3275b81014fb8e.js",
+  "service-worker.js": "/EOSReact/build/service-worker.js"
 }

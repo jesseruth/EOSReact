@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/EOSReact/build/index.html/precache-manifest.5382ea01346aa4e226c0a738488c7c49.js"
+  "/EOSReact/build/precache-manifest.e317041854bf0b5bbb3275b81014fb8e.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/EOSReact/build/index.html/index.html", {
+workbox.routing.registerNavigationRoute("/EOSReact/build/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
