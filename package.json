@@ -2,6 +2,7 @@
   "name": "eosreact",
   "version": "0.1.0",
   "private": true,
+  "homepage" : "https://jesseruth.github.io/EOSReact/build/index.html",
   "dependencies": {
     "@types/jest": "^23.3.10",
     "@types/node": "^10.12.18",
