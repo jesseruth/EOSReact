@@ -1,12 +1,31 @@
 import React, { Component } from 'react';
 
 interface Props {
-  name: string
+  name: string,
+  onTodoClick: (id: string) => void,
+  reduxQueryTest: () => void,
+  todos: number,
 }
 
-class Accounts extends React.Component<Props> {
+class Accounts extends Component<Props> {
+  handleClick = () => {
+    const {
+      onTodoClick,
+      reduxQueryTest,
+    } = this.props;
+    onTodoClick("is");
+    reduxQueryTest();
+    console.log('test')
+  };
+
   render() {
-    return <h1>Hello, {this.props.name}</h1>;
+    console.log('Accounts', this.props);
+    return (
+      <div>
+        <h1>Hello, {this.props.name}</h1>
+        <button onClick={this.handleClick}>Test</button>
+      </div>
+    );
   }
 }
 

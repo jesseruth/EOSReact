@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Accounts from './components/Accounts';
+import AppContainer from './components/AppContainer'
+
 
 class App extends Component {
   state = {
@@ -17,18 +18,20 @@ class App extends Component {
     const {
       inputValue,
     } = this.state;
+
+    console.log('App', this.props);
     return (
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo"/>
-          <Accounts name={inputValue}/>
+
 
         </header>
         <div>
           <input onChange={this.handleInputChange} value={inputValue}/>
           <div>test</div>
         </div>
-
+        <AppContainer/>
         <div>
           Booting up and getting information from EOS Node Proxy:
           https://proxy.eosnode.tools/v1/chain/get_info
